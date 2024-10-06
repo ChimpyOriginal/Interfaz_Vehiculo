@@ -25,12 +25,12 @@ namespace Interfaz_Vehiculo
 
         public string AcelerarInfo()
         {
-            return $"¡{Nombre} ha acelerado! Su velocidad ahora es de: {ObtenerVelocidad()} km/h. ¡Cuidado!";
+            return $"¡{Nombre} ha acelerado! Su velocidad ahora es de {ObtenerVelocidad()} km/h. ¡Cuidado!";
         }
 
         public string DesacelerarInfo()
         {
-            return $"El conductor vió un tránsito y tuvo que bajar la velocidad, ahora su {Nombre} va a: {ObtenerVelocidad()} km/h :(";
+            return $"El conductor vió un tránsito y tuvo que bajar la velocidad, ahora su {Nombre} va a {ObtenerVelocidad()} km/h :(";
         }
         public string FrenarInfo()
         {
@@ -39,7 +39,7 @@ namespace Interfaz_Vehiculo
 
         public string ObtenerVelocidadInfo()
         {
-            return $"¡{Nombre} va a la sorprendente velocidad de: {ObtenerVelocidad()} km/h!";
+            return $"¡{Nombre} va a la sorprendente velocidad de {ObtenerVelocidad()} km/h!";
         }
     }
 }
